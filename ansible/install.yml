@@ -70,7 +70,7 @@
      pip: name=tcconfig executable={{pip_path.stdout}}
 
    - name: build and install Faultynet (using Mininet installer)
-     shell: PYTHON=python3 faultynet/util/install.sh -fnv
+     shell: PYTHON=python3 containernet/util/install.sh -fnv
      args:
        chdir: ../../
 
